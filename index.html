@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Guessing Game About Me</title>
+  </head>
+  <body>
+    <style>
+    body {
+      background-color: #7DA2A0;
+      }
+      h1 {
+        text-align: center;
+        font-size: 3em;
+        background-color: #c3c9d6;
+        border-style: solid none;
+      }
+      thead, h2 {
+        font-size: 1.5em;
+      }
+      tbody {
+        text-align: left;
+        background-color: #ffffb2;
+      }
+      button {
+        font-size: 1em;
+        border: solid;
+      }
+    </style>
+    <header id='aboutMe'>
+      <h1>Little Something About Moi.<h1>
+    </header>
+    <h2>Absolutely LOVE...</h2>
+    <table width='700' cellspacing='10'>
+      <thead>
+        <tr>
+          <th>Realism and <br />Impressionist Arts</th>
+          <th>Travel and Hike</th>
+          <th>Fave Author - Oscar Wilde</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Poppies by Monet</th>
+          <th>Mount St. Helens</th>
+          <th>The Picture of Dorian Gray</th>
+        </tr>
+        <tr>
+          <th>The Starry Night</th>
+          <th>Banaue Rices Terraces</th>
+          <th>Importance of Being Ernest</th>
+        </tr>
+        <tr>
+          <th>Sunrise by Monet</th>
+          <th>Cougar Montain</th>
+          <th>A Woman of No Importance</th>
+        </tr>
+        <tr>
+          <th><img src='Starry.jpeg' height='154' width='252'></th>
+          <th><img src='Banaue.jpeg' height='154' width='252'></th>
+          <th><img src='OscarWilde.jpeg' height='154' width='252'></img></th>
+        </tr>
+      </tbody>
+    </table>
+    <p>I like to travel, go for hikes, fond of sports, adore realist and impressionist paintings and enjoy reading classic books. Previously hiked Hurricane Ridge. I am an avid fan of Oscar Wilde</p>
+    <h2>Guessing Game About Me</h2>
+    <button type='button' onclick='guessingGame()'>Guessing Game</button>
+    <p>You have <span id="score"> 0 </span> correct!</p>
+    <footer id="contact">
+     <p>Posted by: Ali Forman | Email:af@gmail.com</p>
+    </footer>
+    <script type="text/javascript" src="game.js"></script>
+  </body>
+</html>
